@@ -33,6 +33,7 @@ namespace MinhaPrimeiraAPI.Controllers
        public IActionResult CriarAluno(Aluno aluno)
         {
             // COLOCAR UMA ACAO PARA UM BANCO DE DADOS
+            // IMPLEMENTAR POSTERIORMENTE
             return Ok($"ALUNO {aluno.Nome} CRIADO COM SUCESSO!");
         }
     }
